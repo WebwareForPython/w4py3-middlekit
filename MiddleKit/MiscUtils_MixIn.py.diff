@@ -1,0 +1,21 @@
+1c1
+< from types import MethodType
+---
+> from types import MethodType, FunctionType
+55a56
+>         #print("recursively traverse the mix-in ancestor %s %s" % ( pyClass ,mixInClass ) )
+78c79
+<                 if not isinstance(member, MethodType):
+---
+>                 if not isinstance(member, MethodType): #or (MethodType,FunctionType)
+82c83
+<             if isinstance(member, MethodType):
+---
+>             if isinstance(member,(MethodType,FunctionType)): #or callable(member)
+88c89,90
+<                 member = member.__func__
+---
+>                 #member = member.__func__
+>             #print("set %s.%s to %s" % (pyClass, name, member) )
+90d91
+< 

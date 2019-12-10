@@ -1,0 +1,23 @@
+debug = 1
+
+#import sys
+def contextInitialize(app, ctxPath):
+    import os, sys
+
+    try:
+        import MiddleKit
+    except ImportError:
+        sys.path.insert(1, os.path.normpath(os.path.join(ctxPath, os.pardir, os.pardir)))
+        import MiddleKit
+
+    if debug:
+        sys.stdout.flush()
+        print('>> MiddleKit:', MiddleKit)
+        print('>> getcwd:', os.getcwd())
+        print('>> sys.path:')
+        print('\n'.join(sys.path))
+
+    # Apply the automatic mixins.
+    #from . import MixIns
+    #sys.path.insert(1,'/home/nico/Downloads/wwtest/MyContext/WebBrowser')
+    #import MixIns
