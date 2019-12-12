@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UVm7DZOghZCPqoKP3VPVma3s0A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,6 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mkimp/MiscUtils20191210/MiddleKit" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Downloads/mkimp/MiscUtils20191210/MiddleKit" />
   </component>
   <component name="RunManager" selected="Python.Test">
@@ -121,38 +126,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575533310481">
+    <state x="431" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575966765919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="431" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575533310481" />
+    <state x="431" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575966765919" />
     <state x="871" y="273" key="#xdebugger.XInspectDialog" timestamp="1575454145648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="871" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575454145648" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1575962322576">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1575968372888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575962322576" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575968372888" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1575962291800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575962291800" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1575533448210">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1575966807064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575533448210" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1575533448210">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575966807064" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1575966807064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575533448210" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1575533448210">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575966807064" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1575966807064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575533448210" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1575533448210">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575966807064" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1575966807064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575533448210" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575966807064" />
     <state width="1899" height="405" key="GridCell.Tab.1.bottom" timestamp="1575533448210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,10 +174,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="405" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575533448210" />
-    <state x="668" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1575962563316">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1575967969887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575962563316" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575967969887" />
+    <state x="668" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576047713136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576047713136" />
     <state x="549" y="270" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1575457622651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

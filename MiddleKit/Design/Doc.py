@@ -10,7 +10,8 @@ import shutil
 import sys
 import time
 
-from . import FixPath
+#from . import FixPath
+import FixPath
 import MiddleKit
 from MiscUtils.Funcs import valueForString
 from WebUtils.Funcs import htmlEncode
