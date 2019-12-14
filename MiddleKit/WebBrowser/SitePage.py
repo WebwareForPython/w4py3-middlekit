@@ -3,11 +3,6 @@ from MiscUtils.Configurable import Configurable
 from webware.Page import Page
 
 debug = False
-import sys
-sys.path.insert(1,'/home/nico/Downloads/wwtest/MyContext/WebBrowser')
-import MixIns
-
-
 
 
 class SitePage(Page, Configurable):

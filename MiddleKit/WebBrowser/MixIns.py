@@ -116,7 +116,7 @@ class Attr(object):
 class ObjRefAttr(object):
 
     def htValue(self, value, obj):
-        if isinstance(value, int):
+        if isinstance(value, int) and value > 0xFFFFFFFF:
             classSerialNum = (value & 0xFFFFFFFF00000000) >> 32
             objSerialNum = value & 0xFFFFFFFF
             klass = obj.store().klassForId(classSerialNum)
@@ -149,7 +149,7 @@ def InstallMixIns():
                 exec('from MiddleKit.%s.%s import %s' % (
                     place, name, name), nameSpace)
             except ImportError:
-                print("Cant import %s.%s " % (place, name))
+                #print("Cant import %s.%s " % (place, name))
                 pass
             else:
                 pyClass = nameSpace[name]

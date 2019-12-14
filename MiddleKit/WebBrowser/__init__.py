@@ -18,6 +18,5 @@ def contextInitialize(app, ctxPath):
         print('\n'.join(sys.path))
 
     # Apply the automatic mixins.
-    #from . import MixIns
-    #sys.path.insert(1,'/home/nico/Downloads/wwtest/MyContext/WebBrowser')
-    #import MixIns
+    from . import MixIns
+    
