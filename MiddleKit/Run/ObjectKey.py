@@ -41,7 +41,7 @@ class ObjectKey(object):
     #    return result
     def __eq__(self, other ):
         return self._className == other._className and self._serialNum == other._serialNum
-
+    #according to http://python3porting.com/preparing.html hash will then be set to None automatically
     def __hash__(self):
         return hash(self._className) ^ hash(self._serialNum)
 

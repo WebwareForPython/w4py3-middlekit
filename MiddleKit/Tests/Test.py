@@ -79,6 +79,7 @@ class Test(object):
                 MKBasic MKNone MKString MKDateTime MKEnums MKDefaultMinMax
                 MKTypeValueChecking MKInheritance MKInheritanceAbstract
                 MKList MKObjRef MKObjRefReuse MKDelete MKDeleteMark
+                  MKBackRef MKClone MKDump MKRefresh
                 MKMultipleStores MKMultipleThreads
                 MKModelInh1 MKModelInh2 MKModelInh3
                 MKExcel

@@ -366,17 +366,15 @@ class Klass(MiddleDict, ModelObject):
     def __hash__(self):
         return hash(self.name())  # | hash(self.model().name())
 
-    def __cmp__(self, other):
-        if other is None:
-            return 1
-        if not isinstance(other, Klass):
-            return 1
-        if self.model() is not other.model():
-            value = cmp(self.model().name(), other.model().name())
-            if value == 0:
-                value = cmp(self.name(), other.name())
-            return value
-        return cmp(self.name(), other.name())
+    def __eq__(self, other):
+        if other is None or not isinstance(other, Klass):
+            return False
+        #if self.model() is not other.model():
+        #    value = cmp(self.model().name(), other.model().name())
+        #    if value == 0:
+        #        value = cmp(self.name(), other.name())
+        #    return value
+        return self.name() == other.name()
 
 
     ## Warnings ##
