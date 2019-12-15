@@ -1,10 +1,7 @@
 import os
 import sys
 
-try:
-    from pickle import load, dump
-except ImportError:
-    from pickle import load, dump
+from pickle import load, dump
 
 from MiscUtils.Configurable import Configurable
 from MiscUtils import NoDefault

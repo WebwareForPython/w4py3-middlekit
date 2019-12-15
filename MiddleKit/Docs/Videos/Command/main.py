@@ -1,8 +1,9 @@
 # Gain access to the Middle package
 import os
 import sys
-sys.path.insert(1,r'c:\Python38\Lib\site-packages')
+#sys.path.insert(1,r'c:\Python38\Lib\site-packages') #only necessary when you have the old webware/middlekit flying around
 sys.path.insert(1, os.path.abspath(os.pardir))
+
 
 from datetime import date
 #from MiddleKit.Run.MySQLObjectStore import MySQLObjectStore

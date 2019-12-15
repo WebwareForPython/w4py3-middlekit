@@ -48,7 +48,7 @@ def test(store):
         f.setI(2**32)
     except OverflowError:
         pass
-    #else:
+    ##else:
     #    raise Exception('expecting OverflowError for large int argument')
 
     try:

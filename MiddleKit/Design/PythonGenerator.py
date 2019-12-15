@@ -248,8 +248,9 @@ PyStubTemplate = """\
 %(basename)s
 '''
 
-
-from %(superclassModule)s import %(superclassName)s
+if not __package__:
+    __package__='MiddleKit.Tests.WorkDir'
+from .%(superclassModule)s import %(superclassName)s
 
 
 class %(name)s(%(superclassName)s):

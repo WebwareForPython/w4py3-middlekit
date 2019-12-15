@@ -44,6 +44,7 @@ sqlVersionCommand = 'mysql --version'
 
 # override any of the preceding as needed by creating a LocalConfig.py:
 try:
+    #from .LocalConfig import *
     from LocalConfig import *
 except ImportError:
     pass
