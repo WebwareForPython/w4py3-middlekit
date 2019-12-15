@@ -1,2 +1,5 @@
 .pyc
-MiddleKit/Tests/MKTypeValueChecking.mkmodel/TestEmpty.py
+.py.bak
+__pycache__
+WorkDir
+.idea
