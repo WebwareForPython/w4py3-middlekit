@@ -72,7 +72,7 @@ class Dump(object):
 
     def databases(self):
         """Return a list with the names of the supported database engines."""
-        return ['MSSQL', 'MySQL', 'PostgreSQL', 'SQLite']
+        return ['MSSQL', 'MySQL', 'PostgreSQL', 'SQLite', 'Firebird' ]
 
     def main(self, args=sys.argv):
         """Main method."""

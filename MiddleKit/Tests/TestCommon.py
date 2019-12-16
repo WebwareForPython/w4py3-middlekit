@@ -7,7 +7,7 @@ import os
 import sys
 import time
 import FixPath
-import MiscUtils
+#import MiscUtils
 import MiddleKit
 from MiddleKit.Core.Klasses import Klasses
 

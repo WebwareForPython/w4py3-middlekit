@@ -18,7 +18,7 @@ except ImportError:
 
 from MiscUtils import NoDefault
 from MiscUtils.MixIn import MixIn
-from MiddleKit.Run.ObjectKey import ObjectKey
+from .ObjectKey import ObjectKey
 from .MiddleObject import MiddleObject
 
 from .SQLObjectStore import SQLObjectStore, UnknownSerialNumberError
