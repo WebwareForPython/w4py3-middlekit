@@ -14,8 +14,7 @@ import time
 import FixPath
 import MiddleKit
 from MiscUtils.Funcs import valueForString
-from WebUtils.Funcs import htmlEncode
-
+from html import escape as htmlEncode
 
 class Doc(object):
 

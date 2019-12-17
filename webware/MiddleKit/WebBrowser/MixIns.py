@@ -12,8 +12,7 @@ If you add another mix-in then update the list of names found
 in InstallMixIns().
 """
 
-from WebUtils.Funcs import htmlEncode
-
+from html import escape as htmlEncode
 
 def splitWords(s):
     res = []
