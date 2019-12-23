@@ -1,7 +1,7 @@
 import os
 import sys
 
-from MiscUtils.Funcs import asclocaltime
+from webware.MiscUtils.Funcs import asclocaltime
 
 from .SQLGenerator import SQLGenerator
 

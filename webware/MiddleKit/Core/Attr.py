@@ -1,7 +1,7 @@
 import re
 
 from .ModelObject import ModelObject
-from MiscUtils import NoDefault
+from webware.MiscUtils import NoDefault
 from .MiddleDict import MiddleDict
 
 

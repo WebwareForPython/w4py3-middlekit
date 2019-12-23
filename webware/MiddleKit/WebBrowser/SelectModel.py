@@ -1,6 +1,6 @@
 import os
 
-from MiscUtils.Funcs import hostName as HostName
+from webware.MiscUtils.Funcs import hostName as HostName
 from .SitePage import SitePage
 
 

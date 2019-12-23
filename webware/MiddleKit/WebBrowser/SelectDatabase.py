@@ -1,5 +1,5 @@
-from MiscUtils.DataTable import DataTable
-from MiscUtils.Funcs import hostName as HostName
+from webware.MiscUtils.DataTable import DataTable
+from webware.MiscUtils.Funcs import hostName as HostName
 from .SitePage import SitePage
 
 

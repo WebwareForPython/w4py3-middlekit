@@ -3,8 +3,8 @@ import sys
 
 from pickle import load, dump
 
-from MiscUtils.Configurable import Configurable
-from MiscUtils import NoDefault
+from webware.MiscUtils.Configurable import Configurable
+from webware.MiscUtils import NoDefault
 
 
 class ModelError(Exception):
@@ -117,7 +117,7 @@ class Model(Configurable):
         data = None
         shouldUseCache = self.setting('UsePickledClassesCache', False)
         if shouldUseCache:
-            from MiscUtils.PickleCache import readPickleCache, writePickleCache
+            from webware.MiscUtils.PickleCache import readPickleCache, writePickleCache
             data = readPickleCache(path,
                 pickleProtocol=self.pickleProtocol, source='MiddleKit')
 

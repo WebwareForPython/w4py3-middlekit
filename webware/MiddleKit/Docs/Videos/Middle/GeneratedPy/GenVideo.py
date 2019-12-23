@@ -11,7 +11,7 @@ _castAttr = None
 
 from datetime import date, datetime, time, timedelta
 from decimal import Decimal
-from MiscUtils.DateParser import parseDateTime, parseDate, parseTime
+from webware.MiscUtils.DateParser import parseDateTime, parseDate, parseTime
 from MiddleKit.Run.MiddleObject import MiddleObject
 
 

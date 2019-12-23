@@ -3,8 +3,8 @@ import sys
 
 from glob import glob
 
-from MiscUtils import AbstractError, CSVParser
-from MiscUtils.Funcs import asclocaltime
+from webware.MiscUtils import AbstractError, CSVParser
+from webware.MiscUtils.Funcs import asclocaltime
 
 from MiddleKit.Core.ObjRefAttr import objRefJoin
 from .CodeGenerator import *

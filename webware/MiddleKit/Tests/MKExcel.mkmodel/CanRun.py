@@ -1,3 +1,3 @@
 def CanRun():
-    from MiscUtils import DataTable
+    from webware.MiscUtils import DataTable
     return DataTable.canReadExcel()

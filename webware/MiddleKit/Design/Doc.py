@@ -13,7 +13,7 @@ import time
 #from . import FixPath
 import FixPath
 import MiddleKit
-from MiscUtils.Funcs import valueForString
+from webware.MiscUtils.Funcs import valueForString
 from html import escape as htmlEncode
 
 class Doc(object):

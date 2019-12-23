@@ -1,6 +1,6 @@
 def test(store):
     from Foo import Foo
-    from MiscUtils.DataTable import DataTable
+    from webware.MiscUtils.DataTable import DataTable
 
     dataSource = '''
 b:int,i:int,l:long,f:float,s:string,x:int

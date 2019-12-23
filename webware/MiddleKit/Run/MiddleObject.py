@@ -2,8 +2,8 @@ import sys
 import threading
 #from types import InstanceType
 
-from MiscUtils import NoDefault
-from MiscUtils.NamedValueAccess import valueForName
+from webware.MiscUtils import NoDefault
+from webware.MiscUtils.NamedValueAccess import valueForName
 from MiddleKit.Core.ObjRefAttr import ObjRefAttr
 from MiddleKit.Core.ListAttr import ListAttr
 
@@ -141,7 +141,7 @@ class MiddleObject(object):
             try:
                 out.append(repr(valueForName(self, key)))
             except Exception as exc:
-                from MiscUtils.Funcs import excstr
+                from webware.MiscUtils.Funcs import excstr
                 out.append('('+excstr(exc)+')')
         out.append(')')
         out = ''.join(out)

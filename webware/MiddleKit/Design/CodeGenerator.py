@@ -29,9 +29,9 @@ Make sure all three goals are met:
 import os
 import sys
 
-from MiscUtils import AbstractError
-from MiscUtils.Configurable import Configurable
-from MiscUtils.Funcs import asclocaltime
+from webware.MiscUtils import AbstractError
+from webware.MiscUtils.Configurable import Configurable
+from webware.MiscUtils.Funcs import asclocaltime
 
 from MiddleKit.Core.ModelUser import ModelUser
 

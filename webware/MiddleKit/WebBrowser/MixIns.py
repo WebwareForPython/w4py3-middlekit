@@ -135,7 +135,7 @@ class ListAttr(object):
 
 
 def InstallMixIns():
-    from MiscUtils.MixIn import MixIn
+    from webware.MiscUtils.MixIn import MixIn
 
     theGlobals = globals()
     names = 'ObjectStore Klass MiddleObject Attr ObjRefAttr ListAttr'.split()

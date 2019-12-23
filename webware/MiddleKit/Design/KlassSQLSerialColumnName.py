@@ -12,6 +12,6 @@ class KlassMixIn(object):
         return name
 
 
-from MiscUtils.MixIn import MixIn
+from webware.MiscUtils.MixIn import MixIn
 from MiddleKit.Core.Klass import Klass
 MixIn(Klass, KlassMixIn)

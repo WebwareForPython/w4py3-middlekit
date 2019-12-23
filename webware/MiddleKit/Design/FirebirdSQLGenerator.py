@@ -8,7 +8,7 @@ from fdb import DatabaseError
 #def QuotedString(s):
 #    return "'%s'" % s.replace("\\", "\\\\").replace("'", "''")
 
-#from MiscUtils.MixIn import MixIn
+#from webware.MiscUtils.MixIn import MixIn
 
 from .SQLGenerator import SQLGenerator
 #from SQLGenerator import PrimaryKey as PrimaryKeyBase

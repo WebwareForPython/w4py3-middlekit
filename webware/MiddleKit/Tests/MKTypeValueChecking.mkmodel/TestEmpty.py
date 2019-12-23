@@ -22,7 +22,7 @@ def typeErrors(obj, value, skipAttrs=[]):
 
 def test(store):
     import sys
-    from MiscUtils.DataTable import DataTable
+    from webware.MiscUtils.DataTable import DataTable
     from Foo import Foo
     from Bar import Bar
 

@@ -1,8 +1,8 @@
 import sys
 from types import ModuleType
 
-from MiscUtils.MixIn import MixIn
-from MiscUtils import NoDefault
+from webware.MiscUtils.MixIn import MixIn
+from webware.MiscUtils import NoDefault
 
 
 class ModelUser(object):

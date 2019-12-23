@@ -6,8 +6,8 @@ import fdb as dbi
 def QuotedString(s):
     return "'%s'" % s.replace("\\", "\\\\").replace("'", "''")
 
-#from MiscUtils import NoDefault
-#from MiscUtils.MixIn import MixIn
+#from webware.MiscUtils import NoDefault
+#from webware.MiscUtils.MixIn import MixIn
 #from MiddleKit.Run.ObjectKey import ObjectKey
 #from MiddleObject import MiddleObject
 

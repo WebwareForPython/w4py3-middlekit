@@ -1,6 +1,6 @@
 def test(store):
     from Foo import Foo
-    from MiscUtils.DataTable import DataTable
+    from webware.MiscUtils.DataTable import DataTable
 
     thing = store.model().klass('Thing')
     assert thing.hasAttr('a')

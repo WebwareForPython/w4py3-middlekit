@@ -1,4 +1,4 @@
-from MiscUtils.Configurable import Configurable
+from webware.MiscUtils.Configurable import Configurable
 #from WebKit.Page import Page
 from webware.Page import Page
 

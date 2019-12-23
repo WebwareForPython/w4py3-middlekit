@@ -4,10 +4,10 @@ from .MiddleObject import MiddleObject
 from .ObjectStore import ObjectStore, UnknownObjectError
 from .ObjectKey import ObjectKey
 from MiddleKit.Core.ObjRefAttr import objRefJoin, objRefSplit
-from MiscUtils import NoDefault, AbstractError, CSVJoiner
-from MiscUtils import Funcs as funcs
-from MiscUtils.DBPool import DBPool
-from MiscUtils.MixIn import MixIn
+from webware.MiscUtils import NoDefault, AbstractError, CSVJoiner
+from webware.MiscUtils import Funcs as funcs
+from webware.MiscUtils.DBPool import DBPool
+from webware.MiscUtils.MixIn import MixIn
 
 
 class SQLObjectStoreError(Exception):

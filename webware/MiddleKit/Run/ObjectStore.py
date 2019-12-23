@@ -4,8 +4,8 @@ import _thread
 
 from weakref import WeakValueDictionary
 
-from MiscUtils import NoDefault
-from MiscUtils.Funcs import safeDescription
+from webware.MiscUtils import NoDefault
+from webware.MiscUtils.Funcs import safeDescription
 from .ObjectKey import ObjectKey
 from MiddleKit.Core.ModelUser import ModelUser
 from MiddleKit.Core.Klass import Klass as BaseKlass

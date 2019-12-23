@@ -1,7 +1,7 @@
 def test(store):
     from Thing import Thing
     from Person import Person
-    from MiscUtils.DataTable import DataTable
+    from webware.MiscUtils.DataTable import DataTable
 
     dataSource = '''
 b:int,i:int,l:long,f:float,s:string,d:int

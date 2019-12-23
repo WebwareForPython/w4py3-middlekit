@@ -2,9 +2,9 @@ from .ModelObject import ModelObject
 from .Model import Model, ModelError
 from .Klass import Klass
 from .Attr import Attr
-from MiscUtils import NoDefault
-from MiscUtils.DataTable import DataTable
-from MiscUtils.DictForArgs import *
+from webware.MiscUtils import NoDefault
+from webware.MiscUtils.DataTable import DataTable
+from webware.MiscUtils.DictForArgs import *
 
 
 class Klasses(dict, ModelObject):

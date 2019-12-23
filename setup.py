@@ -17,7 +17,7 @@ setuptools.setup(
     author='cito, jhildeb, nl et al.',
     author_email='nl@mnet-online.de',
     description=description,
-    #install_requires=['Webware-for-Python>=3.0.0'],
+    install_requires=['Webware-for-Python>=3.0.0'],
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords='database orm',

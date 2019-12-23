@@ -1,5 +1,5 @@
 from .ModelObject import ModelObject
-from MiscUtils import NoDefault
+from webware.MiscUtils import NoDefault
 from MiddleKit.Core.ListAttr import ListAttr
 from MiddleKit.Core.ObjRefAttr import ObjRefAttr
 from .MiddleDict import MiddleDict

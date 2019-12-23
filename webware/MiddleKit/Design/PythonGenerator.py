@@ -4,7 +4,7 @@ import sys
 import datetime
 
 from .CodeGenerator import CodeGenerator
-from MiscUtils import AbstractError
+from webware.MiscUtils import AbstractError
 from MiddleKit.Core.ObjRefAttr import objRefJoin
 
 
@@ -103,7 +103,7 @@ class Klass(object):
         wr('''
 from datetime import date, datetime, time, timedelta
 from decimal import Decimal
-from MiscUtils.DateParser import parseDateTime, parseDate, parseTime
+from webware.MiscUtils.DateParser import parseDateTime, parseDate, parseTime
 from MiddleKit.Run.MiddleObject import MiddleObject
 ''')
         supername = self.supername()
