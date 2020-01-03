@@ -716,7 +716,8 @@ class SQLObjectStore(ObjectStore):
     def dumpObjectStore(self, out=None, progress=False):
         if out is None:
             out = sys.stdout
-        for klass in list(self.model().klasses().values()):
+        klasses = sorted(list(self.model().klasses().values()), key=lambda k: k.name())
+        for klass in klasses:
             if progress:
                 sys.stderr.write(".")
             out.write('%s objects\n' % (klass.name()))
