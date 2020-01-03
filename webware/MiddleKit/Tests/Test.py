@@ -7,6 +7,7 @@ import time
 from glob import glob
 
 from TestCommon import *
+pyexe = sys.executable
 
 startTime = time.time()
 
@@ -123,14 +124,14 @@ class Test(object):
         if os.path.exists(os.path.join(self._modelName, pyFile)):
             print('%s:' % pyFile)
             deleteData = 'yes' if deleteData else 'no'
-            self.run(r'c:\Python38\python.exe TestRun.py %s %s %s delete=%s' % (
-                self._modelName, self._configFilename, pyFile, deleteData))
+            self.run(r'%s TestRun.py %s %s %s delete=%s' % (
+                pyexe, self._modelName, self._configFilename, pyFile, deleteData))
         else:
             print('NO %s TO TEST.' % pyFile)
 
     def testDesign(self):
-        self.run(r'c:\Python38\python.exe TestDesign.py %s %s' % (
-            self._modelName, self._configFilename))
+        self.run(r'%s TestDesign.py %s %s' % (
+            pyexe, self._modelName, self._configFilename))
 
     def executeFile(self, filename):
         filename = os.path.normpath(filename)
