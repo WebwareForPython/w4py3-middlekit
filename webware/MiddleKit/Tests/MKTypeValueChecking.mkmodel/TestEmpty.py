@@ -34,7 +34,7 @@ def test(store):
     typeErrors(f, blarg)
     typeErrors(f, sys.stdout)
     typeErrors(f, 1.0, ['f'])
-    typeErrors(f, 1, 'b i l f'.split())
+    typeErrors(f, 1, 'b i l f bar'.split())
 
     # ValueErrors and others
     try:
