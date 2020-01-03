@@ -7,6 +7,7 @@ def test(store):
     command = 'diff -u ../MKDump.mkmodel/Samples.csv Dump.csv'
     print(command)
     retval = os.system(command)
-    retval >>= 8  # upper byte is the return code
+    if os.name == 'posix':
+        retval >>= 8  # upper byte is the return code
 
     assert retval == 0
