@@ -6,6 +6,8 @@ import sys
 import time
 from glob import glob
 
+import webware
+webware.mockAppWithPlugins()
 from TestCommon import *
 pyexe = sys.executable
 

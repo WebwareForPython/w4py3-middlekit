@@ -2,6 +2,8 @@
 
 """TestDesign.py"""
 
+import webware
+webware.mockAppWithPlugins()
 from TestCommon import *
 from MiddleKit.Design.Generate import Generate
 from MiddleKit.Core.Model import Model

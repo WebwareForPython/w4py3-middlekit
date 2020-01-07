@@ -2,6 +2,8 @@
 
 """Run MiddleKit test script."""
 
+import webware
+webware.mockAppWithPlugins()
 from TestCommon import *
 import MiddleKit.Run
 

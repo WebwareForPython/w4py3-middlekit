@@ -7,9 +7,7 @@ import os
 import sys
 import time
 import FixPath
-#from webware import MiscUtils
 import MiddleKit
-from MiddleKit.Core.Klasses import Klasses
 
 workDir = 'WorkDir'
 
