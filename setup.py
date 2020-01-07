@@ -17,7 +17,7 @@ setuptools.setup(
     author='Chuck Esterbrook, cito, jdhildeb, nl et al.',
     author_email='jason@peaceworks.ca',
     description=description,
-    install_requires=['Webware-for-Python>=3.0.0a0'],
+    install_requires=['Webware-for-Python>=3.0.0a1'],
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords='database orm',
