@@ -7,10 +7,14 @@ def test(store):
 
     dumped = open('Dump.csv').readlines()
     expected = open('../MKDump.mkmodel/Samples.csv').readlines()
-    diff = map(str.rstrip, difflib.context_diff(dumped, expected,
-        fromfile='dumped.csv', tofile='expected.csv'))
+    diff = list(map(str.rstrip, difflib.context_diff(dumped, expected,
+        fromfile='dumped.csv', tofile='expected.csv')))
 
-    for line in diff:
-        print line
+    if diff:
+        print('\n\n\nDump output did not match what was expected.')
+        print('DIFF OUTPUT BEGIN:')
+        for line in diff:
+            print(line)
+        print('DIFF OUTPUT END')
 
     assert not diff
