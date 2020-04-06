@@ -14,18 +14,18 @@ with open('README.md') as fh:
 setuptools.setup(
     name='Webware-for-Python-MiddleKit',
     version=version,
-    author='Chuck Esterbrook, cito, jdhildeb, nl et al.',
+    author='Chuck Esterbrook, Jason Hildebrand et al.',
     author_email='jason@peaceworks.ca',
     description=description,
     install_requires=['Webware-for-Python>=3.0.0a1'],
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords='database orm',
-    url='https://github.com/PeaceWorksTechnologySolutions/w4py3-middlekit',
+    url='https://github.com/WebwareForPython/w4py3-middlekit',
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
-        'Development Status :: 5 - Production/Stable', #@@pre-relase 
+        'Development Status :: 5 - Production/Stable', #@@pre-relase
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Application Frameworks',
@@ -42,4 +42,4 @@ setuptools.setup(
             'MiddleKit = webware.MiddleKit',
         ]
     }
-) 
+)
